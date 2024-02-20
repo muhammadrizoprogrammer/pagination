@@ -1,0 +1,71 @@
+#posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#posts div {
+  padding: 4px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.color {
+  background-color: red;
+}
+
+.page_style {
+  margin-top: 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+#limit {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#btn-limit {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.page_i, .prev , .next{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 15px;
+  padding: 15px;
+  box-shadow: 1px 0px 5px blue;
+}
+.prev,.next{
+  width: 80px;
+  background: rgb(50, 255, 50);
+  color: white;
+  border-radius: 50px;
+}
+.page_i:hover , .prev:hover , .next:hover{
+  background: rgba(0, 0, 255, 0.224);
+  color: #000;
+  text-align: center;
+}
+.active{
+  background: blue;
+  color: white;
+}
+.btn_dot{
+  margin-right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
